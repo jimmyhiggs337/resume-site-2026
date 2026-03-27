@@ -3,8 +3,8 @@
  */
 
 // Site configuration
-export const SITE_URL = 'https://mldangelo.com';
-export const AUTHOR_NAME = "Michael D'Angelo";
+export const SITE_URL = 'https://profile.jimmyserv.com';
+export const AUTHOR_NAME = "James Higginbotham IV";
 export const TWITTER_HANDLE = '@dangelosaurus';
 
 // Image dimension constants

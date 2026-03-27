@@ -12,140 +12,85 @@ export interface Position {
 }
 
 const work: Position[] = [
-  {
-    name: 'OpenAI',
-    position: 'Member of the Technical Staff',
-    url: 'https://openai.com',
-    startDate: '2026-03-09',
-    summary: `Building evaluation, red-teaming, and hardening infrastructure for AI systems
-    at OpenAI, with a focus on Promptfoo and agent security.`,
-  },
-  {
-    name: 'Promptfoo',
-    position: 'Co-founder & CTO',
-    url: 'https://promptfoo.dev',
-    startDate: '2024-07-01',
-    endDate: '2026-03-09',
-    summary: `Promptfoo started as a developer-first eval tool and grew into a platform
-    for AI security, red-teaming, and compliance. We scaled it to more than 350,000 developers, 130,000
-    monthly active users, and teams at more than 25% of the Fortune 500 before selling the company to OpenAI.`,
+{
+    name: 'Comcast Advertising Billing team',
+    position: 'Software Engineer II',
+    url: 'https://comcastadvertising.com/',
+    startDate: '2024-11-01',
+    summary: 'Comcast advertising manages all advertisements, impressions, billing, and payments for advertisers working with comcast, The billing team managed the apps that allowed advertisers to view, manage, and pay their bills and impressions, as well as the apps used by Comcast Advertising team members to manage advertiser accounts and bills',
     highlights: [
-      'Owned company-wide technical strategy and product roadmap across open-source adoption, commercial product, and research investments.',
-      'Co-led the company through its sale to OpenAI in March 2026.',
-      'Helped turn Promptfoo from an open-source eval tool into an enterprise AI security product used by large companies and frontier labs.',
-      'Built and scaled the company from founding to 23 people across engineering, GTM, and operations.',
-      'Led technical due diligence and fundraising through $23.4M in venture financing from Insight Partners and Andreessen Horowitz.',
-      'Led development of core evaluation framework, vulnerability scanning, static analysis, and automated red-teaming capabilities.',
+      'Managing and optimizing existing and new database connections for mass amounts of data in Comcast Advertising’s financial/billing systems in SAP and SQL.',
+      'Creating, maintaining, and updating UI elements in SAP for use by users to access Comcast Advertising’s financial/billing system data.',
+      'Utilizing and creating api connections to and from SAP for existing and new apps via Mulesoft.',
+      'Managing and updating legacy .NET apps related to multiple parts of Comcast Advertising’s financial/billing systems, and creating and modifying the SQL databases and connections to the databases utilized by the legacy apps and api connections to SAP.',
     ],
   },
   {
-    name: 'Smile ID',
-    position: 'VP Engineering & Head of AI',
-    url: 'https://usesmileid.com',
-    startDate: '2022-01-01',
-    endDate: '2024-07-01',
-    summary: `Smile Identity provides ML-powered identity verification APIs used by banks, fintechs, and
-    telcos across Africa. Promoted from Director to VP Engineering to VP Engineering & Head of AI within one year,
-    leading teams building APIs that now process hundreds of millions of identity checks.`,
+    name: 'Bellwether Technology Company (Sophia App)',
+    position: 'Software Engineer II',
+    url: 'https://www.belltec.com/',
+    startDate: '2022-04-01',
+    endDate: '2024-03-14',
+    summary: `Sophia App: Sophia was created as a collaboration among Bellwether Technology Corporation, VIA LINK Inc.,
+    and the United Way Association of South Carolina to address the need for a better technology solution for I&R service providers. 
+    As their existing I&R software struggled to keep up with their evolving requirements, VIA LINK and UWASC each sought an answer. 
+    They knew they needed an application that was specifically designed for their purposes and would adapt quickly to new developments. 
+    It was clear that such a solution was not readily available and that building one was a significant undertaking with no guarantee of success.
+    Having been involved in various capacities with 211s for well over a decade, 
+    Bellwether understood the enormous potential for a software application that would amplify the positive impact that I&R has on the world. As a long-established and successful managed IT and cybersecurity services company, 
+    Bellwether also understood that getting the most from technology is as much about people as it is about machines and software.
+    Discussions among executive leadership at the three organizations led to a tight collaboration to design and build a new solution, with each member bringing their unique perspective and expertise to the partnership. 
+    The result is Sophia: a modern I&R solution guided by VIA LINK’s and UWASC’s vision and propelled by Bellwether’s 40+ years of technical leadership and customer service excellence.
+    `,
     highlights: [
-      'Owned engineering org design, headcount planning, and hiring across backend and ML teams, growing to 20+ engineers.',
-      'Transformed engineering velocity from weekly releases to continuous deployment, migrating to TypeScript, adding tests in CI, and leading ceremonies.',
-      'Re-architected inference APIs on AWS Lambda, scaling from 1,000 to 1M+ users per day and cutting job time from 30+ seconds to 7 seconds.',
-      'Built computer vision pipelines for liveness detection certification.',
-      'Pitched, designed, and shipped a fraud detection product using 1-N facial recognition with embeddings and vector search.',
+      'Designed and  Implemented new features by creating front-end components and backend functionality, including UI elements and full web pages, data structures, API connections, etc.',
+      'Created comprehensive project documentation, including onboarding guides for new developers and clients, establishing development environment, and more',
+      'Contributed to the development and management of a CI/CD pipeline for deploying the web application as a Single Page Application (SPA) on Azure',
+      'Provided support for multiple existing legacy apps, including but not limited to addressing user-reported errors, optimizing code, patching security vulnerabilities, updating documentation, and overseeing app migrations to Azure hosted VMs and modern hardware',
     ],
   },
   {
-    name: 'Skeptical Investments',
-    position: 'Co-founder',
-    url: 'http://skepticalinvestments.biz',
-    startDate: '2017-04-01',
-    summary: `Skeptical Investments is a micro-VC fund focused on early-stage technical founders,
-    with investments in ML, infrastructure, and space startups.`,
+    name: 'CGI',
+    position: 'Lead UI Developer',
+    url: 'https://www.cgi.com/en',
+    startDate: '2021-04-01',
+    endDate: '2022-04-01',
+    summary: 'CGI Inc. is a Canadian multinational information technology consulting and Software Development company headquartered in Montreal, Quebec, Canada.',
     highlights: [
-      'Created InstaSafe, a tool that automates YC-standard investment documents.',
-      'Advise portfolio founders on ML, infrastructure, hiring, and fundraising strategy.',
+      'Conducted interviews and provided training for new development team members',
+      'Led the development of a new UI (Angular) for an AI-backed platform capable of handling multiple users and designed public and private APIs',
+      'Oversaw and orchestrated the organization and migration of code into Gitlab, and created production and pre-production environments along with developing a CI/CD pipeline',
+      'Coordinated with solutions architect to update infrastructure documentation',
     ],
   },
   {
-    name: 'Arthena',
-    position: 'Co-founder & CTO',
-    url: 'https://arthena.com',
-    startDate: '2014-01-01',
-    endDate: '2022-01-01',
-    summary: `Arthena was a quantitative art investment platform backed by <a href='https://www.anthemis.com/'>Anthemis</a>,
-    <a href='https://foundationcapital.com'>Foundation Capital</a>, and <a href='https://ycombinator.com'>Y Combinator</a>.
-    Built Arthena from idea to acquisition by Masterworks in 2023.`,
+    name: 'CGI',
+    position: 'Software Developer',
+    url: 'https://www.cgi.com/en',
+    startDate: '2020-01-01',
+    endDate: '2021-04-01',
+    summary: 'CGI Inc. is a Canadian multinational information technology consulting and Software Development company headquartered in Montreal, Quebec, Canada.',
     highlights: [
-      'Co-founded Arthena and led technical strategy; sat on board and led fundraising, including debt financing for a 9-figure investment vehicle in the auction guarantee market.',
-      'Built and managed a cross-functional team of 20 engineers, data scientists, and analysts.',
-      'Built data pipelines, quantitative research tools, and visualization systems to scale investment research and augment analyst decision-making.',
-      'Developed valuation models on irregularly-sampled time series using graph embeddings, probabilistic forecasting with calibrated prediction intervals, and online learning with walk-forward validation.',
-      'Designed micro-service architecture for data collection, feature engineering, backtesting, and reporting.',
+      'Oversaw code base for importing, organizing, and categorizing extensive healthcare data into a machine learning supported healthcare database on a repeated and large scale basis for a healthcare company data project utilizing hadoop/hive, HQL, and Java/Scala.',
+      'Created a custom solution for gathering and structuring census data from the census.gov API using Python and R.',
+      'Referenced and extracted pertinent healthcare data, such as COVID-19 data, to populate smaller databases utilized by both internal and external company software and web applications.',
     ],
   },
   {
-    name: 'Matroid',
-    position: 'Co-founder',
-    url: 'https://matroid.com',
-    startDate: '2015-09-01',
-    endDate: '2016-06-01',
-    summary: `Matroid is a computer vision platform for creating and deploying detectors, now funded by
-    <a href='https://www.nea.com'>NEA</a> and <a href='https://www.accel.com'>Accel</a>. I co-founded
-    the company and built the initial product through our first fundraise.`,
+    name: 'Lafayette Utilities System',
+    position: 'Engineering Aide I (Jr. Sys Admin)',
+    url: 'https://www.lus.org/',
+    startDate: '2014-08-01',
+    endDate: '2020-01-01',
+    summary: 'LUS is publicly owned utilities system that provide high-quality, competitively priced services that exceed customers’ expectations, and contributes to the Lafayette Consolidated Government to support other community needs.',
     highlights: [
-      'Defined company vision and product strategy.',
-      'Architected and built the initial detector platform for identifying objects, events, and patterns in video.',
-      'Led technical fundraising efforts for seed round.',
-    ],
-  },
-  {
-    name: 'Planet',
-    position: 'Avionics Intern',
-    url: 'https://planet.com',
-    startDate: '2014-06-01',
-    endDate: '2015-01-01',
-    highlights: [
-      'Built models for cloud detection and optimal exposure using Earth albedo, incorporating sensor physics, astronomy, and optics.',
-      'Worked with optics and camera hardware; developed satellite software in C++ and Python (OpenCV, NumPy, SciPy).',
-    ],
-  },
-  {
-    name: 'Planetary Resources',
-    position: 'Avionics Intern',
-    url: 'https://www.planetaryresources.com',
-    startDate: '2014-01-01',
-    endDate: '2014-05-01',
-    highlights: [
-      'Developed simulations for Attitude Determination and Control Subsystem.',
-      'Built flight hardware for Electrical Power Subsystem in clean room; performed thermal vacuum chamber testing.',
-    ],
-  },
-  {
-    name: 'Facebook',
-    position: 'Software Engineering Intern',
-    url: 'https://facebook.com',
-    startDate: '2013-06-01',
-    endDate: '2013-09-01',
-    highlights: [
-      "Worked on Facebook's first GPU compute team, benchmarking NVIDIA GPUs for initial data center deployment.",
-      'Built log collection software and performed statistical analysis in Python, Hack, R, and HQL.',
-    ],
-  },
-  {
-    name: 'UB Nanosatellite Program',
-    position: 'Program Manager',
-    url: 'https://ubnl.space/',
-    startDate: '2011-06-01',
-    endDate: '2012-05-01',
-    summary:
-      'Led a 60-person student team through the satellite development lifecycle for the AFRL University Nanosatellite Program.',
-    highlights: [
-      'Co-authored grant proposal to design and build a multi-spectral imaging satellite.',
-      'Established budget and schedule from initial concept through design reviews.',
-      'Designed ADCS and worked on sensor integration.',
+      'Collaborated closely with System/Network Administrator to manage and support various applications including Active Directory, Microsoft Exchange, Microsoft Configuration Manager, and Cisco Call Manager on a daily basis',
+      ' Diagnosed, troubleshot, and resolved hardware, software, and network/system issues; replaced defective components when necessary and maintained detailed records of all troubleshooting activities in ticketing system and SQL-backed database',
+      'Configured and tested networking and client computer hardware, networking software, and operating systems; ensured seamless connections between each',
+      'Implemented network security measures to safeguard data, software, and hardware',
     ],
   },
 ];
+
 
 export default work;

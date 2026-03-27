@@ -11,33 +11,27 @@ export default function Hero() {
         </div>
 
         <h1 className="hero-title">
-          <span className="hero-name">Michael D&apos;Angelo</span>
+          <span className="hero-name">James Higginbotham IV</span>
         </h1>
 
         <p className="hero-tagline">
-          Member of the Technical Staff at{' '}
-          <a href="https://openai.com" className="hero-highlight">
-            OpenAI
+          Software Developer II on the Billing Team at{' '}
+          <a href="https://comcastadvertising.com/" className="hero-highlight">
+            Comcast Advertising.
           </a>
-          , where I work on{' '}
-          <a href="https://promptfoo.dev" className="hero-highlight">
-            Promptfoo
-          </a>{' '}
-          and agent security.
-          <br />
-          Previously co-founded, scaled, and sold Promptfoo to OpenAI.
         </p>
 
         <div className="hero-chips">
-          <span className="hero-chip">YC Alum</span>
-          <span className="hero-chip">Stanford ICME</span>
-          <span className="hero-chip">Co-founded Arthena & Matroid</span>
+          <span className="hero-chip">ULL Informatics Graduate</span>
+          <span className="hero-chip">Software Developer</span>
+          <span className="hero-chip">System Administrator</span>
+          <span className="hero-chip">Self Hosting Enthsiast</span>
         </div>
 
         <div className="hero-cta">
-          <Link href="/about" className="button button-primary">
+          {/* <Link href="/about" className="button button-primary">
             About Me
-          </Link>
+          </Link> */}
           <Link href="/resume" className="button button-secondary">
             View Resume
           </Link>

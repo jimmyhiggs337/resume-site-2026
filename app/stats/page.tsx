@@ -8,7 +8,7 @@ import { createPageMetadata } from '@/lib/metadata';
 
 export const metadata: Metadata = createPageMetadata({
   title: 'Stats',
-  description: "Some statistics about Michael D'Angelo and mldangelo.com",
+  description: "Some statistics about James Higginbotham IV and mldangelo.com",
   path: '/stats/',
 });
 
@@ -22,7 +22,7 @@ export default function StatsPage() {
         </header>
         <div className="stats-content">
           <section>
-            <h2 className="stats-section-title">About me</h2>
+            {/* <h2 className="stats-section-title">About me</h2> */}
             <Personal />
           </section>
           <section>

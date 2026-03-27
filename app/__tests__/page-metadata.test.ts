@@ -11,7 +11,7 @@ import { metadata as writingMetadata } from '../writing/page';
 
 describe('page metadata', () => {
   it.each([
-    ['about', aboutMetadata, `${SITE_URL}/about/`],
+    // ['about', aboutMetadata, `${SITE_URL}/about/`],
     ['contact', contactMetadata, `${SITE_URL}/contact/`],
     ['archive', projectsMetadata, `${SITE_URL}/projects/`],
     ['resume', resumeMetadata, `${SITE_URL}/resume/`],
@@ -26,7 +26,7 @@ describe('page metadata', () => {
   });
 
   it.each([
-    ['about', aboutMetadata],
+    // ['about', aboutMetadata],
     ['contact', contactMetadata],
     ['archive', projectsMetadata],
     ['resume', resumeMetadata],

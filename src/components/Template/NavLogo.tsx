@@ -1,4 +1,4 @@
-interface ThemePortraitProps {
+interface NavLogoProps {
   width: number;
   height: number;
   priority?: boolean;
@@ -12,18 +12,18 @@ interface ThemePortraitProps {
  * - Avoid shipping next/image runtime for static export
  * - Reduce client-side JavaScript bundle
  */
-export default function ThemePortrait({
+export default function NavLogo({
   width,
   height,
   priority = false,
   className = '',
-}: ThemePortraitProps) {
+}: NavLogoProps) {
   return (
     <span className={`theme-portrait ${className}`}>
       {/* biome-ignore lint/performance/noImgElement: Using native img to avoid next/image runtime overhead for static export */}
       <img
-        src="/images/me.jpg"
-        alt="James Higginbotham IV"
+        src="/images/favicon/safari-pinned-tab.svg"
+        alt="JHIV"
         width={width}
         height={height}
         loading={priority ? 'eager' : 'lazy'}

@@ -26,10 +26,10 @@ describe('ResumeNav', () => {
       'href',
       '#skills',
     );
-    expect(screen.getByRole('link', { name: /courses/i })).toHaveAttribute(
-      'href',
-      '#courses',
-    );
+    // expect(screen.getByRole('link', { name: /courses/i })).toHaveAttribute(
+    //   'href',
+    //   '#courses',
+    // );
     expect(screen.getByRole('link', { name: /references/i })).toHaveAttribute(
       'href',
       '#references',

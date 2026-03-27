@@ -7,6 +7,7 @@ import routes from '@/data/routes';
 
 import Hamburger from './Hamburger';
 import ThemeToggle from './ThemeToggle';
+import NavLogo from './NavLogo';
 
 export default function Navigation() {
   const pathname = usePathname();
@@ -19,7 +20,7 @@ export default function Navigation() {
   return (
     <header className="site-header">
       <Link href="/" className="site-logo">
-        <span className="logo-text">MD</span>
+        <span className="logo-image"><NavLogo width={50} height={50} priority /></span>
       </Link>
 
       <nav className="nav-links">
